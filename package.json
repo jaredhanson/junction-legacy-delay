@@ -1,0 +1,29 @@
+{
+  "name": "junction-legacy-delay",
+  "version": "0.0.0",
+  "description": "Legacy Delayed Delivery middleware for Junction.",
+  "keywords": ["junction", "xmpp", "jabber", "delay", "xep0091", "middleware"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/junction-legacy-delay.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/junction-legacy-delay/issues"
+  },
+  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib",
+  "dependencies": {
+    "junction": "0.2.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}
