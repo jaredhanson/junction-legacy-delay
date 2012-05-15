@@ -1,6 +1,6 @@
 {
   "name": "junction-legacy-delay",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Legacy Delayed Delivery middleware for Junction.",
   "keywords": ["junction", "xmpp", "jabber", "delay", "xep0091", "middleware"],
   "repository": {
