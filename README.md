@@ -3,6 +3,27 @@
 [Legacy Delayed Delivery](http://xmpp.org/extensions/xep-0091.html) middleware built on [Junction](http://github.com/jaredhanson/junction)
 and [Node](http://nodejs.org).
 
+## Installation
+
+    $ npm install junction-legacy-delay
+
+## Usage
+
+To parse legacy delayed delivery information in message and presence stanzas,
+use `legacyDelayParser` middleware:
+
+    var legacyDelayParser = require('junction-legacy-delay');
+
+    var app = junction()
+      .use(legacyDelayParser());
+
+## Tests
+
+    $ npm install --dev
+    $ make test
+
+[![Build Status](https://secure.travis-ci.org/jaredhanson/junction-legacy-delay.png)](http://travis-ci.org/jaredhanson/junction-legacy-delay)
+
 ## License
 
 (The MIT License)
